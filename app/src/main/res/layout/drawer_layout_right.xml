@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--右边侧滑菜单-->
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:id="@+id/tv_one_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:text="第一行代码"/>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>
