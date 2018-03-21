@@ -1,11 +1,18 @@
 package com.forever.blrweather;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import butterknife.BindView;
+/**
+ *  * @copyright: 2017 
+ *  * @priject BlrWeather
+ *  * @author LuoXuLiang
+ *  * @description:  description 
+ *  * @date: 2018/3/12 上午10:44
+ *  
+ */
 
 public class MainActivity extends BaseAcitvity {
     @BindView(R.id.tv_one_code)
