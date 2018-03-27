@@ -1,4 +1,4 @@
-package com.forever.blrweather.ui.base;
+package com.forever.blrweather.base;
 
 import android.content.Intent;
 import android.graphics.Color;

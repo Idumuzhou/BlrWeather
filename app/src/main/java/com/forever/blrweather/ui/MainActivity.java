@@ -1,14 +1,11 @@
 package com.forever.blrweather.ui;
 
-import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import com.forever.blrweather.R;
-import com.forever.blrweather.ui.base.BaseAcitvity;
-import com.forever.blrweather.ui.onecode.BroadcastReceiverActivity;
+import com.forever.blrweather.base.BaseAcitvity;
+import com.forever.blrweather.onecode.BroadcastReceiverActivity;
 
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**

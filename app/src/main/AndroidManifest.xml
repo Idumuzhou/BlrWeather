@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.onecode.AOneCodeMainActivity"
+            android:name=".onecode.AOneCodeMainActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".ui.onecode.BroadcastReceiverActivity"
+            android:name=".onecode.BroadcastReceiverActivity"
             android:screenOrientation="portrait"/>
     </application>
 

@@ -1,13 +1,17 @@
 <resources>
 
-    <!-- Base application theme. -->
+     Base application theme.
     <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/main_color</item>
         <item name="colorPrimaryDark">@color/transparent</item>
         <item name="colorAccent">@color/main_gradient_color</item>
         <item name="colorButtonNormal">@color/main_color</item>
         <item name="android:windowBackground">@color/window_background</item>
+        <!--解决冷启动白屏-->
+        <item name="android:windowIsTranslucent">true</item>
     </style>
     <style name="AppTheme" parent="Base.Theme.DesignDemo"/>
+
+
 
 </resources>

@@ -4,6 +4,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/weather_bg"
     tools:context="com.forever.blrweather.ui.MainActivity">
 
 
@@ -23,7 +24,7 @@
 
     <!--侧滑布局 这个一定要放在最后,否则按钮点击事件无效-->
     <include
-        android:layout_width="300dp"
+        android:layout_width="260dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         layout="@layout/drawer_layout_right"/>

@@ -6,13 +6,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/color_white">
-
-    <ImageView
-        android:layout_width="wrap_content"
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@mipmap/ic_launcher_round"/>
+        android:gravity="center_horizontal"
+        android:background="@color/color_mine_bg">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/status_bar_padding"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:src="@mipmap/ic_launcher_round"/>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
     <TextView
         android:id="@+id/tv_one_code"
         android:layout_width="match_parent"
