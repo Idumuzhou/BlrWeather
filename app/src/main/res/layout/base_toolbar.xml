@@ -3,7 +3,7 @@
     android:id="@+id/toolbar"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:background="@color/main_color"
+    android:background="@color/color_main"
     android:paddingTop="@dimen/status_bar_padding"
     android:orientation="vertical">
 
@@ -19,6 +19,7 @@
         android:layout_centerInParent="true"
         android:layout_gravity="center"
         android:text="Title"
+        android:textColor="@color/white"
         android:textSize="18sp"/>
 
     <ImageView

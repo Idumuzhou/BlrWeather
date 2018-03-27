@@ -15,4 +15,6 @@
     <color name="color_black">#000000</color>
     <color name="selector_grey">#DDDDDD</color>
     <color name="color_mine_bg">#1ec0ff</color>
+    <color name="color_main">#212121</color>
+
 </resources>

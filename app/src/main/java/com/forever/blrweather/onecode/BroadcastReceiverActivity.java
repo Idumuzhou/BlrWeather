@@ -24,6 +24,11 @@ public class BroadcastReceiverActivity extends BaseAcitvity {
     }
 
     @Override
+    protected String getToolbarTitleText() {
+        return "广播";
+    }
+
+    @Override
     protected int getContentViewLayoutId() {
         return R.layout.activity_broadcast_receiver;
     }

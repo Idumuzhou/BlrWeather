@@ -12,6 +12,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="123"/>
+        android:text="324345"/>
 
 </com.zhy.android.percent.support.PercentLinearLayout>

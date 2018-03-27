@@ -24,6 +24,11 @@ public class AOneCodeMainActivity extends BaseAcitvity {
     }
 
     @Override
+    protected String getToolbarTitleText() {
+        return "One Code";
+    }
+
+    @Override
     protected int getContentViewLayoutId() {
         return R.layout.activity_one_code_book;
     }
