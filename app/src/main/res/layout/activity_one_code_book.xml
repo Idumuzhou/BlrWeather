@@ -9,9 +9,6 @@
         android:layout_height="wrap_content"
         layout="@layout/base_toolbar"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="324345"/>
+
 
 </com.zhy.android.percent.support.PercentLinearLayout>

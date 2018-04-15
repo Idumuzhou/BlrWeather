@@ -4,6 +4,7 @@ import android.view.View;
 
 import com.forever.blrweather.R;
 import com.forever.blrweather.base.BaseAcitvity;
+import com.forever.blrweather.onecode.AOneCodeMainActivity;
 import com.forever.blrweather.onecode.BroadcastReceiverActivity;
 
 import butterknife.OnClick;

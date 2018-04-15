@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.forever.blrweather">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--添加静态广播权限-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,10 +23,20 @@
         </activity>
         <activity
             android:name=".onecode.AOneCodeMainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".onecode.BroadcastReceiverActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+
+        <!--静态注册广播-->
+        <receiver
+            android:name=".onecode.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
